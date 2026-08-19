@@ -1,0 +1,131 @@
+name: forgecmms
+
+x-app: &app
+  image: ${APP_IMAGE:-forgecmms:latest}
+  build:
+    context: .
+  env_file:
+    - path: .env
+      required: false
+  environment:
+    DATABASE_URL: ${POSTGRES_URL:-postgres://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-postgres}}
+    BASE_URL: ${BASE_URL:-http://localhost}
+    STORAGE_ENDPOINT: ${STORAGE_URL:-http://storage:9000}
+    STORAGE_BUCKET: ${STORAGE_BUCKET:-forgecmms}
+    STORAGE_ACCESS_KEY_ID: ${STORAGE_ACCESS_KEY_ID:-forgecmms}
+    STORAGE_SECRET_ACCESS_KEY: ${STORAGE_SECRET_ACCESS_KEY:?set STORAGE_SECRET_ACCESS_KEY}
+  restart: unless-stopped
+  depends_on:
+    db:
+      condition: service_healthy
+    storage-init:
+      condition: service_completed_successfully
+
+services:
+  db:
+    image: ${POSTGRES_IMAGE:-postgres:18}
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-postgres}
+    volumes:
+      - db_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  storage:
+    image: ${MINIO_IMAGE:-minio/minio:RELEASE.2025-09-07T16-13-09Z}
+    command: ["server", "/data"]
+    environment:
+      MINIO_ROOT_USER: ${STORAGE_ACCESS_KEY_ID:-forgecmms}
+      MINIO_ROOT_PASSWORD: ${STORAGE_SECRET_ACCESS_KEY:?set STORAGE_SECRET_ACCESS_KEY}
+    volumes:
+      - storage_data:/data
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  storage-init:
+    image: ${MINIO_CLIENT_IMAGE:-minio/mc:RELEASE.2025-08-13T08-35-41Z}
+    environment:
+      STORAGE_BUCKET: ${STORAGE_BUCKET:-forgecmms}
+      STORAGE_ACCESS_KEY_ID: ${STORAGE_ACCESS_KEY_ID:-forgecmms}
+      STORAGE_SECRET_ACCESS_KEY: ${STORAGE_SECRET_ACCESS_KEY:?set STORAGE_SECRET_ACCESS_KEY}
+    entrypoint:
+      - sh
+      - -c
+      - |
+        set -e
+        mc alias set local http://storage:9000 "$$STORAGE_ACCESS_KEY_ID" "$$STORAGE_SECRET_ACCESS_KEY"
+        mc mb --ignore-existing "local/$$STORAGE_BUCKET"
+        printf '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":["*"]},"Action":["s3:GetObject"],"Resource":["arn:aws:s3:::%s/*"]}]}' "$$STORAGE_BUCKET" > /tmp/policy.json
+        mc anonymous set-json /tmp/policy.json "local/$$STORAGE_BUCKET"
+    depends_on:
+      storage:
+        condition: service_healthy
+    restart: "no"
+
+  migrate:
+    <<: *app
+    command: ["node", "--env-file-if-exists=.env", "src/server/db/migrate.ts"]
+    restart: "no"
+
+  web:
+    <<: *app
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    expose:
+      - "3000"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3000/api/health').then(r => process.exit(r.ok ? 0 : 1), () => process.exit(1))",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+
+  worker:
+    <<: *app
+    command: ["node", "dist/worker/worker.js"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  caddy:
+    image: ${CADDY_IMAGE:-forgecmms-caddy:latest}
+    build:
+      context: .
+      dockerfile: Dockerfile.caddy
+    environment:
+      SITE_DOMAIN: ${SITE_DOMAIN:-http://localhost}
+      STORAGE_BUCKET: ${STORAGE_BUCKET:-forgecmms}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      web:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  db_data:
+  storage_data:
+  caddy_data:
+  caddy_config:

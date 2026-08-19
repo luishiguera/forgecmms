@@ -1,0 +1,29 @@
+{$SITE_DOMAIN} {
+	encode zstd gzip
+
+	request_body {
+		max_size 24MB
+	}
+
+	@secure expression {scheme} == "https"
+	header @secure Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+
+	handle_path /storage/* {
+		route {
+			forward_auth web:3000 {
+				uri /api/storage-auth
+			}
+			rewrite * /{$STORAGE_BUCKET}{uri}
+			reverse_proxy storage:9000
+		}
+	}
+
+	handle {
+		reverse_proxy web:3000
+	}
+}

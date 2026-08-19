@@ -1,0 +1,12 @@
+.agents
+.claude
+.DS_Store
+.env
+.env.*
+.git
+.gitignore
+Dockerfile
+compose.yaml
+dist
+node_modules
+*.log

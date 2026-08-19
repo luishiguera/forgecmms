@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<title>ForgeCMMS</title>
+		<style>
+			:root {
+				color-scheme: light dark;
+				--bg: #ffffff;
+				--fg: #1b1310;
+				--muted: #6b5c54;
+				--accent: #b03f00;
+			}
+			@media (prefers-color-scheme: dark) {
+				:root {
+					--bg: #1b1310;
+					--fg: #f5f2f0;
+					--muted: #a89a92;
+					--accent: #ea6f2f;
+				}
+			}
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				margin: 0;
+				min-height: 100dvh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 24px;
+				background: var(--bg);
+				color: var(--fg);
+				font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+			}
+			main {
+				display: flex;
+				flex-direction: column;
+				gap: 16px;
+				max-width: 20rem;
+				text-align: center;
+			}
+			h1 {
+				margin: 0;
+				font-size: 1.25rem;
+				font-weight: 500;
+			}
+			p {
+				margin: 0;
+				font-size: 0.9rem;
+				line-height: 1.5;
+				color: var(--muted);
+			}
+			button {
+				margin-top: 8px;
+				padding: 12px 20px;
+				border: 0;
+				border-radius: 10px;
+				background: var(--accent);
+				color: #ffffff;
+				font: inherit;
+				font-size: 0.9rem;
+				cursor: pointer;
+			}
+			.brand {
+				font-size: 1.5rem;
+				letter-spacing: -0.02em;
+				color: var(--accent);
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="brand">forgecmms</div>
+			<h1 data-i18n="title">No connection</h1>
+			<p data-i18n="body">
+				This page needs a connection. Check your network and try again.
+			</p>
+			<button type="button" data-i18n="retry" onclick="location.reload()">
+				Try again
+			</button>
+		</main>
+		<script>
+			(() => {
+				var copy = {
+					es: {
+						title: "Sin conexión",
+						body: "Esta página necesita conexión. Revisa tu red e inténtalo de nuevo.",
+						retry: "Reintentar",
+					},
+					pt: {
+						title: "Sem conexão",
+						body: "Esta página precisa de conexão. Verifique sua rede e tente novamente.",
+						retry: "Tentar novamente",
+					},
+				};
+				var lang = (navigator.language || "en").slice(0, 2);
+				var texts = copy[lang];
+				if (!texts) return;
+				document.documentElement.lang = lang;
+				document.querySelectorAll("[data-i18n]").forEach((node) => {
+					node.textContent = texts[node.getAttribute("data-i18n")];
+				});
+			})();
+		</script>
+	</body>
+</html>

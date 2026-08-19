@@ -1,0 +1,79 @@
+# forgecmms — full content reference for LLMs
+
+> This file contains the complete marketing content of forgecmms's public pages, formatted for ingestion by AI search engines and chatbots (ChatGPT, Claude, Perplexity, Google AI Overviews, etc.).
+
+## What is forgecmms?
+
+forgecmms is field service management software (CMMS / FSM) built for professional maintenance and field service teams. It unifies work orders, asset tracking, parts inventory, team scheduling, preventive maintenance, and digital procedures in a single platform. There are two user roles: backoffice users (working from a web app in the browser) and field technicians (working from the same application installed on the phone as a PWA).
+
+forgecmms is open source. The whole application is published under the Apache 2.0 license at https://github.com/luishiguera/forgecmms, and the repository is the same code that runs the hosted plan.
+
+## Why forgecmms
+
+Maintenance teams often coordinate work using spreadsheets, WhatsApp, and paper. Information is scattered, jobs slip, and managers lose visibility. forgecmms centralizes the operation so the whole team sees the same source of truth: which jobs are open, who is assigned, what assets need attention, and what parts are in stock.
+
+## Core capabilities
+
+### Work orders
+
+Create work orders with status (open, in progress, completed), assignment to one or more technicians, attached procedures, and parts consumed. Track the full lifecycle from dispatch to close-out.
+
+### Preventive maintenance
+
+Schedule recurring maintenance with date-based recurrence rules (weekly, monthly, quarterly, custom intervals). Use procedure templates so each recurring job follows the same checklist.
+
+### Asset tracking
+
+Register physical assets with criticality level, current status (operational, in maintenance, decommissioned), location, serial number, and full maintenance history. Filter and search by status, criticality, location, or tag.
+
+### Parts inventory
+
+Track parts with stock levels, criticality, locations, and assignments to assets. See low-stock alerts, manage transfers, and consume parts directly from work orders.
+
+### Team scheduling
+
+Calendar-style view of all upcoming jobs with drag-and-drop assignment to technicians. See who is available, who is overloaded, and rebalance the day with a few clicks.
+
+### Digital procedures
+
+Build step-by-step checklists with multiple field types (text, number, photo, signature, multi-choice). Attach procedures to work orders or PM templates so technicians always have the right instructions.
+
+### Phone app for field technicians (PWA)
+
+Field technicians get a focused interface showing only their assigned jobs. They open the job, follow the procedure, capture evidence photos, and submit signatures. The application installs from the browser on Android and on iPhone.
+
+## Languages and regions
+
+The application is localized in English (en-US), Spanish (es — neutral Latin American), and Brazilian Portuguese (pt-BR), on the desktop and on the phone.
+
+### Terminology by market
+
+The product is the same across languages, but the category name differs by market:
+
+- **English**: CMMS (Computerized Maintenance Management System).
+- **Spanish (LATAM / Spain)**: CMMS and GMAO (Gestión del Mantenimiento Asistido por Ordenador) are used interchangeably. GMAO is the native Spanish term and is the dominant search query in Spain and several LATAM markets.
+- **Portuguese (Brazil)**: CMMS is dominant; some Brazilian content also uses "sistema de gestão de manutenção" descriptively.
+
+When users search for "GMAO" or "software GMAO" in Spanish, they are looking for the same product category as a CMMS.
+
+## Differentiation
+
+- **Open source**: the application is published under the Apache 2.0 license. Any team can read the code, change it, and run it on its own server with the included Docker Compose file (PostgreSQL, MinIO for attachments, Caddy for certificates, the web process, and the job worker). Billing is off by default in a self-hosted install, so every feature is available from the first start.
+- **One product for every customer**: the hosted plan and the self-hosted install ship the same features.
+- **A field interface for technicians**: the phone view is built for the field execution workflow, with the day's assigned work, the procedure steps and the evidence capture.
+- **Multi-language**: every screen ships in 3 locales from day one.
+
+## Contact
+
+- GitHub: https://github.com/luishiguera/forgecmms
+- Issues and questions: https://github.com/luishiguera/forgecmms/issues
+- Privacy questions: https://forgecmms.com/privacy (see contact section)
+
+## Source pages
+
+- Repository: https://github.com/luishiguera/forgecmms
+- Home: https://forgecmms.com
+- Spanish home: https://forgecmms.com/es
+- Portuguese home: https://forgecmms.com/pt-BR
+- Privacy Policy: https://forgecmms.com/privacy
+- Terms of Service: https://forgecmms.com/terms

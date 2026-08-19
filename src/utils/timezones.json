@@ -1,0 +1,1274 @@
+[
+	{
+		"tzCode": "Pacific/Midway"
+	},
+	{
+		"tzCode": "Pacific/Niue"
+	},
+	{
+		"tzCode": "Pacific/Pago_Pago"
+	},
+	{
+		"tzCode": "America/Adak"
+	},
+	{
+		"tzCode": "Pacific/Honolulu"
+	},
+	{
+		"tzCode": "Pacific/Rarotonga"
+	},
+	{
+		"tzCode": "Pacific/Tahiti"
+	},
+	{
+		"tzCode": "Pacific/Marquesas"
+	},
+	{
+		"tzCode": "America/Anchorage"
+	},
+	{
+		"tzCode": "America/Juneau"
+	},
+	{
+		"tzCode": "America/Metlakatla"
+	},
+	{
+		"tzCode": "America/Nome"
+	},
+	{
+		"tzCode": "America/Sitka"
+	},
+	{
+		"tzCode": "America/Yakutat"
+	},
+	{
+		"tzCode": "Pacific/Gambier"
+	},
+	{
+		"tzCode": "America/Los_Angeles"
+	},
+	{
+		"tzCode": "America/Tijuana"
+	},
+	{
+		"tzCode": "America/Vancouver"
+	},
+	{
+		"tzCode": "Pacific/Pitcairn"
+	},
+	{
+		"tzCode": "America/Boise"
+	},
+	{
+		"tzCode": "America/Cambridge_Bay"
+	},
+	{
+		"tzCode": "America/Chihuahua"
+	},
+	{
+		"tzCode": "America/Creston"
+	},
+	{
+		"tzCode": "America/Dawson"
+	},
+	{
+		"tzCode": "America/Dawson_Creek"
+	},
+	{
+		"tzCode": "America/Denver"
+	},
+	{
+		"tzCode": "America/Edmonton"
+	},
+	{
+		"tzCode": "America/Fort_Nelson"
+	},
+	{
+		"tzCode": "America/Hermosillo"
+	},
+	{
+		"tzCode": "America/Inuvik"
+	},
+	{
+		"tzCode": "America/Mazatlan"
+	},
+	{
+		"tzCode": "America/Ojinaga"
+	},
+	{
+		"tzCode": "America/Phoenix"
+	},
+	{
+		"tzCode": "America/Whitehorse"
+	},
+	{
+		"tzCode": "America/Yellowknife"
+	},
+	{
+		"tzCode": "America/Bahia_Banderas"
+	},
+	{
+		"tzCode": "America/Belize"
+	},
+	{
+		"tzCode": "America/Chicago"
+	},
+	{
+		"tzCode": "America/Costa_Rica"
+	},
+	{
+		"tzCode": "America/El_Salvador"
+	},
+	{
+		"tzCode": "America/Guatemala"
+	},
+	{
+		"tzCode": "America/Indiana/Knox"
+	},
+	{
+		"tzCode": "America/Indiana/Tell_City"
+	},
+	{
+		"tzCode": "America/Managua"
+	},
+	{
+		"tzCode": "America/Matamoros"
+	},
+	{
+		"tzCode": "America/Menominee"
+	},
+	{
+		"tzCode": "America/Merida"
+	},
+	{
+		"tzCode": "America/Mexico_City"
+	},
+	{
+		"tzCode": "America/Monterrey"
+	},
+	{
+		"tzCode": "America/North_Dakota/Beulah"
+	},
+	{
+		"tzCode": "America/North_Dakota/Center"
+	},
+	{
+		"tzCode": "America/North_Dakota/New_Salem"
+	},
+	{
+		"tzCode": "America/Rainy_River"
+	},
+	{
+		"tzCode": "America/Rankin_Inlet"
+	},
+	{
+		"tzCode": "America/Regina"
+	},
+	{
+		"tzCode": "America/Resolute"
+	},
+	{
+		"tzCode": "America/Swift_Current"
+	},
+	{
+		"tzCode": "America/Tegucigalpa"
+	},
+	{
+		"tzCode": "America/Winnipeg"
+	},
+	{
+		"tzCode": "Pacific/Easter"
+	},
+	{
+		"tzCode": "Pacific/Galapagos"
+	},
+	{
+		"tzCode": "America/Atikokan"
+	},
+	{
+		"tzCode": "America/Bogota"
+	},
+	{
+		"tzCode": "America/Cancun"
+	},
+	{
+		"tzCode": "America/Cayman"
+	},
+	{
+		"tzCode": "America/Detroit"
+	},
+	{
+		"tzCode": "America/Eirunepe"
+	},
+	{
+		"tzCode": "America/Grand_Turk"
+	},
+	{
+		"tzCode": "America/Guayaquil"
+	},
+	{
+		"tzCode": "America/Havana"
+	},
+	{
+		"tzCode": "America/Indiana/Indianapolis"
+	},
+	{
+		"tzCode": "America/Indiana/Marengo"
+	},
+	{
+		"tzCode": "America/Indiana/Petersburg"
+	},
+	{
+		"tzCode": "America/Indiana/Vevay"
+	},
+	{
+		"tzCode": "America/Indiana/Vincennes"
+	},
+	{
+		"tzCode": "America/Indiana/Winamac"
+	},
+	{
+		"tzCode": "America/Iqaluit"
+	},
+	{
+		"tzCode": "America/Jamaica"
+	},
+	{
+		"tzCode": "America/Kentucky/Louisville"
+	},
+	{
+		"tzCode": "America/Kentucky/Monticello"
+	},
+	{
+		"tzCode": "America/Lima"
+	},
+	{
+		"tzCode": "America/Nassau"
+	},
+	{
+		"tzCode": "America/New_York"
+	},
+	{
+		"tzCode": "America/Nipigon"
+	},
+	{
+		"tzCode": "America/Panama"
+	},
+	{
+		"tzCode": "America/Pangnirtung"
+	},
+	{
+		"tzCode": "America/Port-au-Prince"
+	},
+	{
+		"tzCode": "America/Rio_Branco"
+	},
+	{
+		"tzCode": "America/Thunder_Bay"
+	},
+	{
+		"tzCode": "America/Toronto"
+	},
+	{
+		"tzCode": "America/Anguilla"
+	},
+	{
+		"tzCode": "America/Antigua"
+	},
+	{
+		"tzCode": "America/Aruba"
+	},
+	{
+		"tzCode": "America/Asuncion"
+	},
+	{
+		"tzCode": "America/Barbados"
+	},
+	{
+		"tzCode": "America/Blanc-Sablon"
+	},
+	{
+		"tzCode": "America/Boa_Vista"
+	},
+	{
+		"tzCode": "America/Campo_Grande"
+	},
+	{
+		"tzCode": "America/Caracas"
+	},
+	{
+		"tzCode": "America/Cuiaba"
+	},
+	{
+		"tzCode": "America/Curacao"
+	},
+	{
+		"tzCode": "America/Dominica"
+	},
+	{
+		"tzCode": "America/Glace_Bay"
+	},
+	{
+		"tzCode": "America/Goose_Bay"
+	},
+	{
+		"tzCode": "America/Grenada"
+	},
+	{
+		"tzCode": "America/Guadeloupe"
+	},
+	{
+		"tzCode": "America/Guyana"
+	},
+	{
+		"tzCode": "America/Halifax"
+	},
+	{
+		"tzCode": "America/Kralendijk"
+	},
+	{
+		"tzCode": "America/La_Paz"
+	},
+	{
+		"tzCode": "America/Lower_Princes"
+	},
+	{
+		"tzCode": "America/Manaus"
+	},
+	{
+		"tzCode": "America/Marigot"
+	},
+	{
+		"tzCode": "America/Martinique"
+	},
+	{
+		"tzCode": "America/Moncton"
+	},
+	{
+		"tzCode": "America/Montserrat"
+	},
+	{
+		"tzCode": "America/Porto_Velho"
+	},
+	{
+		"tzCode": "America/Port_of_Spain"
+	},
+	{
+		"tzCode": "America/Puerto_Rico"
+	},
+	{
+		"tzCode": "America/Santiago"
+	},
+	{
+		"tzCode": "America/Santo_Domingo"
+	},
+	{
+		"tzCode": "America/St_Barthelemy"
+	},
+	{
+		"tzCode": "America/St_Kitts"
+	},
+	{
+		"tzCode": "America/St_Lucia"
+	},
+	{
+		"tzCode": "America/St_Thomas"
+	},
+	{
+		"tzCode": "America/St_Vincent"
+	},
+	{
+		"tzCode": "America/Thule"
+	},
+	{
+		"tzCode": "America/Tortola"
+	},
+	{
+		"tzCode": "Atlantic/Bermuda"
+	},
+	{
+		"tzCode": "America/St_Johns"
+	},
+	{
+		"tzCode": "America/Araguaina"
+	},
+	{
+		"tzCode": "America/Argentina/Buenos_Aires"
+	},
+	{
+		"tzCode": "America/Argentina/Catamarca"
+	},
+	{
+		"tzCode": "America/Argentina/Cordoba"
+	},
+	{
+		"tzCode": "America/Argentina/Jujuy"
+	},
+	{
+		"tzCode": "America/Argentina/La_Rioja"
+	},
+	{
+		"tzCode": "America/Argentina/Mendoza"
+	},
+	{
+		"tzCode": "America/Argentina/Rio_Gallegos"
+	},
+	{
+		"tzCode": "America/Argentina/Salta"
+	},
+	{
+		"tzCode": "America/Argentina/San_Juan"
+	},
+	{
+		"tzCode": "America/Argentina/San_Luis"
+	},
+	{
+		"tzCode": "America/Argentina/Tucuman"
+	},
+	{
+		"tzCode": "America/Argentina/Ushuaia"
+	},
+	{
+		"tzCode": "America/Bahia"
+	},
+	{
+		"tzCode": "America/Belem"
+	},
+	{
+		"tzCode": "America/Cayenne"
+	},
+	{
+		"tzCode": "America/Fortaleza"
+	},
+	{
+		"tzCode": "America/Godthab"
+	},
+	{
+		"tzCode": "America/Maceio"
+	},
+	{
+		"tzCode": "America/Miquelon"
+	},
+	{
+		"tzCode": "America/Montevideo"
+	},
+	{
+		"tzCode": "America/Paramaribo"
+	},
+	{
+		"tzCode": "America/Punta_Arenas"
+	},
+	{
+		"tzCode": "America/Recife"
+	},
+	{
+		"tzCode": "America/Santarem"
+	},
+	{
+		"tzCode": "America/Sao_Paulo"
+	},
+	{
+		"tzCode": "Antarctica/Palmer"
+	},
+	{
+		"tzCode": "Antarctica/Rothera"
+	},
+	{
+		"tzCode": "Atlantic/Stanley"
+	},
+	{
+		"tzCode": "America/Noronha"
+	},
+	{
+		"tzCode": "Atlantic/South_Georgia"
+	},
+	{
+		"tzCode": "America/Scoresbysund"
+	},
+	{
+		"tzCode": "Atlantic/Azores"
+	},
+	{
+		"tzCode": "Atlantic/Cape_Verde"
+	},
+	{
+		"tzCode": "Africa/Abidjan"
+	},
+	{
+		"tzCode": "Africa/Accra"
+	},
+	{
+		"tzCode": "Africa/Bamako"
+	},
+	{
+		"tzCode": "Africa/Banjul"
+	},
+	{
+		"tzCode": "Africa/Bissau"
+	},
+	{
+		"tzCode": "Africa/Casablanca"
+	},
+	{
+		"tzCode": "Africa/Conakry"
+	},
+	{
+		"tzCode": "Africa/Dakar"
+	},
+	{
+		"tzCode": "Africa/El_Aaiun"
+	},
+	{
+		"tzCode": "Africa/Freetown"
+	},
+	{
+		"tzCode": "Africa/Lome"
+	},
+	{
+		"tzCode": "Africa/Monrovia"
+	},
+	{
+		"tzCode": "Africa/Nouakchott"
+	},
+	{
+		"tzCode": "Africa/Ouagadougou"
+	},
+	{
+		"tzCode": "Africa/Sao_Tome"
+	},
+	{
+		"tzCode": "America/Danmarkshavn"
+	},
+	{
+		"tzCode": "Antarctica/Troll"
+	},
+	{
+		"tzCode": "Atlantic/Canary"
+	},
+	{
+		"tzCode": "Atlantic/Faroe"
+	},
+	{
+		"tzCode": "Atlantic/Madeira"
+	},
+	{
+		"tzCode": "Atlantic/Reykjavik"
+	},
+	{
+		"tzCode": "Atlantic/St_Helena"
+	},
+	{
+		"tzCode": "Europe/Dublin"
+	},
+	{
+		"tzCode": "Europe/Guernsey"
+	},
+	{
+		"tzCode": "Europe/Isle_of_Man"
+	},
+	{
+		"tzCode": "Europe/Jersey"
+	},
+	{
+		"tzCode": "Europe/Lisbon"
+	},
+	{
+		"tzCode": "Europe/London"
+	},
+	{
+		"tzCode": "Africa/Algiers"
+	},
+	{
+		"tzCode": "Africa/Bangui"
+	},
+	{
+		"tzCode": "Africa/Brazzaville"
+	},
+	{
+		"tzCode": "Africa/Ceuta"
+	},
+	{
+		"tzCode": "Africa/Douala"
+	},
+	{
+		"tzCode": "Africa/Kinshasa"
+	},
+	{
+		"tzCode": "Africa/Lagos"
+	},
+	{
+		"tzCode": "Africa/Libreville"
+	},
+	{
+		"tzCode": "Africa/Luanda"
+	},
+	{
+		"tzCode": "Africa/Malabo"
+	},
+	{
+		"tzCode": "Africa/Ndjamena"
+	},
+	{
+		"tzCode": "Africa/Niamey"
+	},
+	{
+		"tzCode": "Africa/Porto-Novo"
+	},
+	{
+		"tzCode": "Africa/Tunis"
+	},
+	{
+		"tzCode": "Africa/Windhoek"
+	},
+	{
+		"tzCode": "Arctic/Longyearbyen"
+	},
+	{
+		"tzCode": "Europe/Amsterdam"
+	},
+	{
+		"tzCode": "Europe/Andorra"
+	},
+	{
+		"tzCode": "Europe/Belgrade"
+	},
+	{
+		"tzCode": "Europe/Berlin"
+	},
+	{
+		"tzCode": "Europe/Bratislava"
+	},
+	{
+		"tzCode": "Europe/Brussels"
+	},
+	{
+		"tzCode": "Europe/Budapest"
+	},
+	{
+		"tzCode": "Europe/Copenhagen"
+	},
+	{
+		"tzCode": "Europe/Gibraltar"
+	},
+	{
+		"tzCode": "Europe/Ljubljana"
+	},
+	{
+		"tzCode": "Europe/Luxembourg"
+	},
+	{
+		"tzCode": "Europe/Madrid"
+	},
+	{
+		"tzCode": "Europe/Malta"
+	},
+	{
+		"tzCode": "Europe/Monaco"
+	},
+	{
+		"tzCode": "Europe/Oslo"
+	},
+	{
+		"tzCode": "Europe/Paris"
+	},
+	{
+		"tzCode": "Europe/Podgorica"
+	},
+	{
+		"tzCode": "Europe/Prague"
+	},
+	{
+		"tzCode": "Europe/Rome"
+	},
+	{
+		"tzCode": "Europe/San_Marino"
+	},
+	{
+		"tzCode": "Europe/Sarajevo"
+	},
+	{
+		"tzCode": "Europe/Skopje"
+	},
+	{
+		"tzCode": "Europe/Stockholm"
+	},
+	{
+		"tzCode": "Europe/Tirane"
+	},
+	{
+		"tzCode": "Europe/Vaduz"
+	},
+	{
+		"tzCode": "Europe/Vatican"
+	},
+	{
+		"tzCode": "Europe/Vienna"
+	},
+	{
+		"tzCode": "Europe/Warsaw"
+	},
+	{
+		"tzCode": "Europe/Zagreb"
+	},
+	{
+		"tzCode": "Europe/Zurich"
+	},
+	{
+		"tzCode": "Africa/Blantyre"
+	},
+	{
+		"tzCode": "Africa/Bujumbura"
+	},
+	{
+		"tzCode": "Africa/Cairo"
+	},
+	{
+		"tzCode": "Africa/Gaborone"
+	},
+	{
+		"tzCode": "Africa/Harare"
+	},
+	{
+		"tzCode": "Africa/Johannesburg"
+	},
+	{
+		"tzCode": "Africa/Juba"
+	},
+	{
+		"tzCode": "Africa/Khartoum"
+	},
+	{
+		"tzCode": "Africa/Kigali"
+	},
+	{
+		"tzCode": "Africa/Lubumbashi"
+	},
+	{
+		"tzCode": "Africa/Lusaka"
+	},
+	{
+		"tzCode": "Africa/Maputo"
+	},
+	{
+		"tzCode": "Africa/Maseru"
+	},
+	{
+		"tzCode": "Africa/Mbabane"
+	},
+	{
+		"tzCode": "Africa/Tripoli"
+	},
+	{
+		"tzCode": "Asia/Amman"
+	},
+	{
+		"tzCode": "Asia/Beirut"
+	},
+	{
+		"tzCode": "Asia/Damascus"
+	},
+	{
+		"tzCode": "Asia/Famagusta"
+	},
+	{
+		"tzCode": "Asia/Gaza"
+	},
+	{
+		"tzCode": "Asia/Hebron"
+	},
+	{
+		"tzCode": "Asia/Jerusalem"
+	},
+	{
+		"tzCode": "Asia/Nicosia"
+	},
+	{
+		"tzCode": "Europe/Athens"
+	},
+	{
+		"tzCode": "Europe/Bucharest"
+	},
+	{
+		"tzCode": "Europe/Chisinau"
+	},
+	{
+		"tzCode": "Europe/Helsinki"
+	},
+	{
+		"tzCode": "Europe/Kaliningrad"
+	},
+	{
+		"tzCode": "Europe/Kyiv"
+	},
+	{
+		"tzCode": "Europe/Mariehamn"
+	},
+	{
+		"tzCode": "Europe/Riga"
+	},
+	{
+		"tzCode": "Europe/Sofia"
+	},
+	{
+		"tzCode": "Europe/Tallinn"
+	},
+	{
+		"tzCode": "Europe/Uzhgorod"
+	},
+	{
+		"tzCode": "Europe/Vilnius"
+	},
+	{
+		"tzCode": "Europe/Zaporizhzhia"
+	},
+	{
+		"tzCode": "Africa/Addis_Ababa"
+	},
+	{
+		"tzCode": "Africa/Asmara"
+	},
+	{
+		"tzCode": "Africa/Dar_es_Salaam"
+	},
+	{
+		"tzCode": "Africa/Djibouti"
+	},
+	{
+		"tzCode": "Africa/Kampala"
+	},
+	{
+		"tzCode": "Africa/Mogadishu"
+	},
+	{
+		"tzCode": "Africa/Nairobi"
+	},
+	{
+		"tzCode": "Antarctica/Syowa"
+	},
+	{
+		"tzCode": "Asia/Aden"
+	},
+	{
+		"tzCode": "Asia/Baghdad"
+	},
+	{
+		"tzCode": "Asia/Bahrain"
+	},
+	{
+		"tzCode": "Asia/Kuwait"
+	},
+	{
+		"tzCode": "Asia/Qatar"
+	},
+	{
+		"tzCode": "Asia/Riyadh"
+	},
+	{
+		"tzCode": "Europe/Istanbul"
+	},
+	{
+		"tzCode": "Europe/Kirov"
+	},
+	{
+		"tzCode": "Europe/Minsk"
+	},
+	{
+		"tzCode": "Europe/Moscow"
+	},
+	{
+		"tzCode": "Europe/Simferopol"
+	},
+	{
+		"tzCode": "Europe/Volgograd"
+	},
+	{
+		"tzCode": "Indian/Antananarivo"
+	},
+	{
+		"tzCode": "Indian/Comoro"
+	},
+	{
+		"tzCode": "Indian/Mayotte"
+	},
+	{
+		"tzCode": "Asia/Tehran"
+	},
+	{
+		"tzCode": "Asia/Baku"
+	},
+	{
+		"tzCode": "Asia/Dubai"
+	},
+	{
+		"tzCode": "Asia/Muscat"
+	},
+	{
+		"tzCode": "Asia/Tbilisi"
+	},
+	{
+		"tzCode": "Asia/Yerevan"
+	},
+	{
+		"tzCode": "Europe/Astrakhan"
+	},
+	{
+		"tzCode": "Europe/Samara"
+	},
+	{
+		"tzCode": "Europe/Saratov"
+	},
+	{
+		"tzCode": "Europe/Ulyanovsk"
+	},
+	{
+		"tzCode": "Indian/Mahe"
+	},
+	{
+		"tzCode": "Indian/Mauritius"
+	},
+	{
+		"tzCode": "Indian/Reunion"
+	},
+	{
+		"tzCode": "Asia/Kabul"
+	},
+	{
+		"tzCode": "Antarctica/Mawson"
+	},
+	{
+		"tzCode": "Asia/Aqtau"
+	},
+	{
+		"tzCode": "Asia/Aqtobe"
+	},
+	{
+		"tzCode": "Asia/Ashgabat"
+	},
+	{
+		"tzCode": "Asia/Atyrau"
+	},
+	{
+		"tzCode": "Asia/Dushanbe"
+	},
+	{
+		"tzCode": "Asia/Karachi"
+	},
+	{
+		"tzCode": "Asia/Oral"
+	},
+	{
+		"tzCode": "Asia/Qyzylorda"
+	},
+	{
+		"tzCode": "Asia/Samarkand"
+	},
+	{
+		"tzCode": "Asia/Tashkent"
+	},
+	{
+		"tzCode": "Asia/Yekaterinburg"
+	},
+	{
+		"tzCode": "Indian/Kerguelen"
+	},
+	{
+		"tzCode": "Indian/Maldives"
+	},
+	{
+		"tzCode": "Asia/Colombo"
+	},
+	{
+		"tzCode": "Asia/Kolkata"
+	},
+	{
+		"tzCode": "Asia/Kathmandu"
+	},
+	{
+		"tzCode": "Antarctica/Vostok"
+	},
+	{
+		"tzCode": "Asia/Almaty"
+	},
+	{
+		"tzCode": "Asia/Bishkek"
+	},
+	{
+		"tzCode": "Asia/Dhaka"
+	},
+	{
+		"tzCode": "Asia/Omsk"
+	},
+	{
+		"tzCode": "Asia/Qostanay"
+	},
+	{
+		"tzCode": "Asia/Thimphu"
+	},
+	{
+		"tzCode": "Asia/Urumqi"
+	},
+	{
+		"tzCode": "Indian/Chagos"
+	},
+	{
+		"tzCode": "Asia/Yangon"
+	},
+	{
+		"tzCode": "Indian/Cocos"
+	},
+	{
+		"tzCode": "Antarctica/Davis"
+	},
+	{
+		"tzCode": "Asia/Bangkok"
+	},
+	{
+		"tzCode": "Asia/Barnaul"
+	},
+	{
+		"tzCode": "Asia/Hovd"
+	},
+	{
+		"tzCode": "Asia/Ho_Chi_Minh"
+	},
+	{
+		"tzCode": "Asia/Jakarta"
+	},
+	{
+		"tzCode": "Asia/Krasnoyarsk"
+	},
+	{
+		"tzCode": "Asia/Novokuznetsk"
+	},
+	{
+		"tzCode": "Asia/Novosibirsk"
+	},
+	{
+		"tzCode": "Asia/Phnom_Penh"
+	},
+	{
+		"tzCode": "Asia/Pontianak"
+	},
+	{
+		"tzCode": "Asia/Tomsk"
+	},
+	{
+		"tzCode": "Asia/Vientiane"
+	},
+	{
+		"tzCode": "Indian/Christmas"
+	},
+	{
+		"tzCode": "Asia/Brunei"
+	},
+	{
+		"tzCode": "Asia/Choibalsan"
+	},
+	{
+		"tzCode": "Asia/Hong_Kong"
+	},
+	{
+		"tzCode": "Asia/Irkutsk"
+	},
+	{
+		"tzCode": "Asia/Kuala_Lumpur"
+	},
+	{
+		"tzCode": "Asia/Kuching"
+	},
+	{
+		"tzCode": "Asia/Macau"
+	},
+	{
+		"tzCode": "Asia/Makassar"
+	},
+	{
+		"tzCode": "Asia/Manila"
+	},
+	{
+		"tzCode": "Asia/Shanghai"
+	},
+	{
+		"tzCode": "Asia/Singapore"
+	},
+	{
+		"tzCode": "Asia/Taipei"
+	},
+	{
+		"tzCode": "Asia/Ulaanbaatar"
+	},
+	{
+		"tzCode": "Australia/Perth"
+	},
+	{
+		"tzCode": "Australia/Eucla"
+	},
+	{
+		"tzCode": "Asia/Chita"
+	},
+	{
+		"tzCode": "Asia/Dili"
+	},
+	{
+		"tzCode": "Asia/Jayapura"
+	},
+	{
+		"tzCode": "Asia/Khandyga"
+	},
+	{
+		"tzCode": "Asia/Pyongyang"
+	},
+	{
+		"tzCode": "Asia/Seoul"
+	},
+	{
+		"tzCode": "Asia/Tokyo"
+	},
+	{
+		"tzCode": "Asia/Yakutsk"
+	},
+	{
+		"tzCode": "Pacific/Palau"
+	},
+	{
+		"tzCode": "Australia/Adelaide"
+	},
+	{
+		"tzCode": "Australia/Broken_Hill"
+	},
+	{
+		"tzCode": "Australia/Darwin"
+	},
+	{
+		"tzCode": "Antarctica/DumontDUrville"
+	},
+	{
+		"tzCode": "Antarctica/Macquarie"
+	},
+	{
+		"tzCode": "Asia/Ust-Nera"
+	},
+	{
+		"tzCode": "Asia/Vladivostok"
+	},
+	{
+		"tzCode": "Australia/Brisbane"
+	},
+	{
+		"tzCode": "Australia/Currie"
+	},
+	{
+		"tzCode": "Australia/Hobart"
+	},
+	{
+		"tzCode": "Australia/Lindeman"
+	},
+	{
+		"tzCode": "Australia/Melbourne"
+	},
+	{
+		"tzCode": "Australia/Sydney"
+	},
+	{
+		"tzCode": "Pacific/Chuuk"
+	},
+	{
+		"tzCode": "Pacific/Guam"
+	},
+	{
+		"tzCode": "Pacific/Port_Moresby"
+	},
+	{
+		"tzCode": "Pacific/Saipan"
+	},
+	{
+		"tzCode": "Australia/Lord_Howe"
+	},
+	{
+		"tzCode": "Antarctica/Casey"
+	},
+	{
+		"tzCode": "Asia/Magadan"
+	},
+	{
+		"tzCode": "Asia/Sakhalin"
+	},
+	{
+		"tzCode": "Asia/Srednekolymsk"
+	},
+	{
+		"tzCode": "Pacific/Bougainville"
+	},
+	{
+		"tzCode": "Pacific/Efate"
+	},
+	{
+		"tzCode": "Pacific/Guadalcanal"
+	},
+	{
+		"tzCode": "Pacific/Kosrae"
+	},
+	{
+		"tzCode": "Pacific/Norfolk"
+	},
+	{
+		"tzCode": "Pacific/Noumea"
+	},
+	{
+		"tzCode": "Pacific/Pohnpei"
+	},
+	{
+		"tzCode": "Antarctica/McMurdo"
+	},
+	{
+		"tzCode": "Asia/Anadyr"
+	},
+	{
+		"tzCode": "Asia/Kamchatka"
+	},
+	{
+		"tzCode": "Pacific/Auckland"
+	},
+	{
+		"tzCode": "Pacific/Fiji"
+	},
+	{
+		"tzCode": "Pacific/Funafuti"
+	},
+	{
+		"tzCode": "Pacific/Kwajalein"
+	},
+	{
+		"tzCode": "Pacific/Majuro"
+	},
+	{
+		"tzCode": "Pacific/Nauru"
+	},
+	{
+		"tzCode": "Pacific/Tarawa"
+	},
+	{
+		"tzCode": "Pacific/Wake"
+	},
+	{
+		"tzCode": "Pacific/Wallis"
+	},
+	{
+		"tzCode": "Pacific/Chatham"
+	},
+	{
+		"tzCode": "Pacific/Apia"
+	},
+	{
+		"tzCode": "Pacific/Enderbury"
+	},
+	{
+		"tzCode": "Pacific/Fakaofo"
+	},
+	{
+		"tzCode": "Pacific/Tongatapu"
+	},
+	{
+		"tzCode": "Pacific/Kiritimati"
+	}
+]

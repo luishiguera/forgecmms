@@ -1,0 +1,29 @@
+# forgecmms
+
+> Field service management and CMMS (computerized maintenance management system) software for professional service teams. One web application that installs on the phone as a PWA. Multi-language (English, Spanish, Brazilian Portuguese). In Spanish-speaking markets, a CMMS is also known as GMAO (Gestión del Mantenimiento Asistido por Ordenador).
+
+## Core pages
+
+- [Home](https://forgecmms.com): Product overview and features
+- [Source code](https://github.com/luishiguera/forgecmms): The whole application, open source under the Apache 2.0 license. Includes the Docker Compose file that runs it on your own server.
+- [Privacy Policy](https://forgecmms.com/privacy): How forgecmms collects, uses, shares, and protects personal and operational data.
+- [Terms of Service](https://forgecmms.com/terms): Subscription terms, refunds, acceptable use, limitations of liability.
+
+## Localized home pages
+
+- [Spanish home](https://forgecmms.com/es): Versión en español neutro (LATAM)
+- [Brazilian Portuguese home](https://forgecmms.com/pt-BR): Versão em português brasileiro
+
+## What forgecmms does
+
+- **Work orders**: Create, assign, track status, attach procedures and parts.
+- **Preventive maintenance**: Schedule recurring tasks with templates and date-based recurrence.
+- **Asset tracking**: Register physical assets with criticality, status, and full maintenance history.
+- **Parts inventory**: Track parts with stock levels, locations, and assignments to assets.
+- **Team scheduling**: Calendar view with drag-and-drop assignment of jobs to technicians.
+- **Digital procedures**: Build step-by-step checklists with form fields and photo capture.
+- **Phone app (PWA)**: Field technicians install the same application from the browser, receive assigned work, follow procedures, and capture evidence photos and signatures in the field.
+
+## Who it's for
+
+Maintenance teams, field service operations, facilities management, manufacturing, fleet management, reliability engineering. Replaces Excel-based coordination, paper work orders, and disconnected mobile tools. In Spanish-speaking markets the same product is sold as a GMAO (Gestión del Mantenimiento Asistido por Ordenador); in Brazilian Portuguese it is referred to as a CMMS.

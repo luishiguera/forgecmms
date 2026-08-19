@@ -1,0 +1,74 @@
+{
+	"version": 1,
+	"skills": {
+		"emilkowal-animations": {
+			"source": "pproenca/dot-skills",
+			"sourceType": "github",
+			"computedHash": "5044cbfc49bba2122b1cef3dcb960b8e415867db90f097f9e9bcdb24df695d11"
+		},
+		"geo-content-optimizer": {
+			"source": "aaron-he-zhu/seo-geo-claude-skills",
+			"sourceType": "github",
+			"skillPath": "build/geo-content-optimizer/SKILL.md",
+			"computedHash": "5d53a11e53d76174fc75c83452b69e2b9dc05011fde14bb7147310b58e0d1cb9"
+		},
+		"install-anti-slop": {
+			"source": "dmmulroy/anti-slop",
+			"sourceType": "github",
+			"skillPath": "skills/install-anti-slop/SKILL.md",
+			"computedHash": "b903a7ac2c823d473a4b0046834fccbab0bc75ee4fda8be4f81efa895d475b01"
+		},
+		"postgres-drizzle": {
+			"source": "ccheney/robust-skills",
+			"sourceType": "github",
+			"skillPath": "skills/postgres-drizzle/SKILL.md",
+			"computedHash": "26754316f0d7698c323c5130d89ba04d49fabd1bf960c1a38c23b4d2bbe0424d"
+		},
+		"seo": {
+			"source": "addyosmani/web-quality-skills",
+			"sourceType": "github",
+			"skillPath": "skills/seo/SKILL.md",
+			"computedHash": "1f1551c898c17a88a976b4f4aa84e17886f115f3887b62d1c4f8a1c040e4d1ef"
+		},
+		"seo-audit": {
+			"source": "coreyhaines31/marketingskills",
+			"sourceType": "github",
+			"skillPath": "skills/seo-audit/SKILL.md",
+			"computedHash": "f2dc52130189068981f21e1c0bdc4471ac7cd9b08d8a1320604411aa0f950385"
+		},
+		"seo-content-writer": {
+			"source": "aaron-he-zhu/seo-geo-claude-skills",
+			"sourceType": "github",
+			"skillPath": "build/seo-content-writer/SKILL.md",
+			"computedHash": "9e39567caa9ee0fb4afd18b8e61fbe666eebbe6111d740ab3b6e024df590e94d"
+		},
+		"tanstack-query": {
+			"source": "tanstack-skills/tanstack-skills",
+			"sourceType": "github",
+			"skillPath": "plugins/tanstack-query/skills/tanstack-query/SKILL.md",
+			"computedHash": "b8a0477cd4d7bf8fa54d27f8e64d82388402f0d502591db50a357df5b9995c75"
+		},
+		"tanstack-start": {
+			"source": "tanstack-skills/tanstack-skills",
+			"sourceType": "github",
+			"skillPath": "plugins/tanstack-start/skills/tanstack-start/SKILL.md",
+			"computedHash": "e9d8355fe3e47b118e739081f1123c52aa0ecde57da840722177e1ad5caf9908"
+		},
+		"typescript-advanced-types": {
+			"source": "wshobson/agents",
+			"sourceType": "github",
+			"computedHash": "3a3be8c925f96ac4e1280db28a01677e7ca5197f3792de2bbf35ab3bb324b6dd"
+		},
+		"vitest": {
+			"source": "pproenca/dot-skills",
+			"sourceType": "github",
+			"skillPath": "skills/.curated/vitest/SKILL.md",
+			"computedHash": "2432cb7f9099423fb3768a925fa95d7f8a6dc56c76eaded47472f558bff7139e"
+		},
+		"zod": {
+			"source": "pproenca/dot-skills",
+			"sourceType": "github",
+			"computedHash": "e5d8e35002d0d6b03db0b0daad54e1b82c9c10804f8a745025c07db5ea685655"
+		}
+	}
+}
