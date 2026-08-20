@@ -35,14 +35,6 @@ export const Route = createRootRouteWithContext<{
 		],
 		links: [
 			{
-				rel: "preconnect",
-				href: "https://storage.massadesk.com",
-			},
-			{
-				rel: "dns-prefetch",
-				href: "https://storage.massadesk.com",
-			},
-			{
 				rel: "stylesheet",
 				href: appCss,
 			},
