@@ -12,7 +12,7 @@ import {
 } from "@/utils/jsonld";
 import { seo } from "@/utils/seo";
 
-const LANDING_OG_IMAGE = "https://storage.massadesk.com/static/og.png";
+const LANDING_OG_IMAGE = "/og.png";
 const HERO_VIDEO = "/hero.webm";
 
 export const Route = createFileRoute("/")({

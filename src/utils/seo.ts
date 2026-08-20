@@ -22,7 +22,7 @@ export const seo = ({
 	noindex?: boolean;
 	availableLocales?: string[];
 }) => {
-	const DEFAULT_OG = "https://storage.massadesk.com/static/og.png";
+	const DEFAULT_OG = `${SITE_URL}/og.png`;
 	const currentLocale = getLocale();
 	const canonical = `${SITE_URL}${localizeHref(path, { locale: currentLocale })}`;
 	const imageUrl = image
